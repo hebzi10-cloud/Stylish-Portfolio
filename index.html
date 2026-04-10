@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</head>
+<style>
+  .imghov:hover {
+    transform: scale(.9);
+    transition-duration: 1s;
+  }
+</style>
+
+<body>
+  <a class="btn btn-primary position-fixed" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+    aria-controls="offcanvasExample" style="top: 20px;right: 20px;z-index: 9999;">
+    Menu
+  </a>
+  <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+    aria-controls="offcanvasExample">
+    Button with data-bs-target
+  </button> -->
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
+        etc.
+      </div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="position-relative">
+      <img src="./images/imgi_93_bg-masthead.jpg" alt="" class="w-100" style="height: 600px;">
+    </div>
+    <div class="position-absolute text-center" style="transform: translate(-50%,-50%); top: 50%;left: 50%;">
+      <p style="font-size: 70px; font-weight: 800;">Stylish Portfolio</p>
+      <p style="font-weight: 600 ;font-size: 30px;">A Free Bootstrap Theme by Start Bootstrap</p>
+      <button class="btn btn-info btn-lg">Find out more</button>
+    </div>
+    <div class="text-center bg-white m-5">
+      <h2 class="text-black" style="font-weight: 700;">Stylish Portfolio is the perfect theme for your next project!
+      </h2>
+      <h5 class="text-black" style="font-weight: 300;">This theme features a flexible, UX friendly sidebar menu and
+        stock photos from our friends at Unsplash !</h5>
+      <button class="btn btn-dark btn-lg">What We Offer</button>
+    </div>
+    <div class="text-center bg-info p-5">
+      <h5 class="text-warning" style="font-weight: 600;">SERVICES</h5>
+      <h1 class="text-center text-white fw-bolder">What We Offer</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <img src="./images/boxicons--mobile-back.svg" alt="">
+            <h4 class="text-white fw-bolder">Responsive</h4>
+            <p class="text-white">Looks great on any screen size!</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <img src="./images/raphael--pen.svg" alt="">
+            <h4 class="text-white fw-bolder">Redesigned</h4>
+            <p class="text-white">Freshly redesigned for Bootstrap 5.</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <img src="./images/material-symbols-light--favorite.svg" alt="">
+            <h4 class="text-white fw-bolder">Favorited</h4>
+            <p class="text-white">Millions of users Start Bootstrap!</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <img src="./images/hugeicons--question.svg" alt="">
+            <h4 class="text-white fw-bolder">Question</h4>
+            <p class="text-white">I mustache you a question...</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <div class="position-relative">
+    <img src="./images/imgi_94_bg-callout.jpg" alt="" class="w-100" style="height: 600px;">
+
+    <div class="position-absolute text-center" style="transform: translate(-50%,-50%); top: 50%;left: 50%;">
+      <p style="font-size: 70px; font-weight: 800;">Welcome to your next website!</p>
+      <button class="btn btn-info btn-lg">Download Now!</button>
+    </div>
+  </div>
+  <div class="text-center bg-white m-5">
+    <h5 class="text-warning" style="font-weight: 600;">PORTFOLIO</h5>
+    <h1 class="text-center text-black fw-bolder">Recent Projects</h1>
+
+  </div>
+
+  <div class="container my-5 py-5">
+    <div class="row gx-0 gy-3">
+      <div class="col-md-12 col-lg-6">
+        <img src="./images/imgi_86_portfolio-1.jpg" alt="" class="w-100 imghov">
+      </div>
+      <div class="col-md-12 col-lg-6">
+        <img src="./images/imgi_87_portfolio-2.jpg" alt="" class="w-100 imghov">
+      </div>
+
+    </div>
+    <div class="row gx-0 gy-3">
+      <div class="col-md-12 col-lg-6">
+        <img src="./images/imgi_88_portfolio-3.jpg" alt="" class="w-100 imghov">
+      </div>
+      <div class="col-md-12 col-lg-6">
+        <img src="./images/imgi_94_bg-callout.jpg" alt="" class="w-100 imghov">
+      </div>
+
+    </div>
+  </div>
+  <div class="text-center bg-info p-5">
+    <h1 class="text-center text-white fw-bolder p-5">What We Offer</h1>
+    <button class="btn btn-light btn-lg">Click Me!</button>
+    <button class="btn btn-dark btn-lg">Look At Me!</button>
+  </div>
+  <div>
+
+  </div>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15796.8493378934!2d77.42136233597671!3d8.181352809054642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8b3e6ae6273d0835%3A0xbcd6d939423d3fa9!2sJCS%20Infotech!5e0!3m2!1sen!2sin!4v1775708978952!5m2!1sen!2sin"
+    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+
+</html>
